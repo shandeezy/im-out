@@ -13,23 +13,6 @@ body{
 
 }
 
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10rem;
-
-    background: url();
-    
-    background-position: center;
-    background-repeat: center;
-    background-size: cover;
-}
-
-
-
-
-
 .container{
     
 
@@ -44,11 +27,6 @@ header{
 }
         
         
-    
-   
-
-
-
 footer{
     position: fixed;
     bottom: 0;
@@ -69,13 +47,6 @@ footer{
 
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-}
 
 header{
     display: flex;
@@ -124,7 +95,7 @@ nav ul  li{
 }
 
 nav ul li.active{
-    /* background-color: var(--black); */
+    background-color: var(--black);
     
 
 }
@@ -142,6 +113,6 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    text-decoration:line-through;
+    text-decoration:underline;
 
 }
