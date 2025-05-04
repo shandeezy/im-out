@@ -2,49 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-
+    border-style:ridge;
 }
+
 body{
     background-color: rgb(211, 201, 211);
-    
-
 }
 
 .container{
-    
-
-        margin-bottom: 5rem;
-        box-shadow: 5px 5px 5px grey;
-        border-left: 5px;
-        padding: 5rem 10rem;
-            
-        
-        
-        
+     margin-bottom: 5rem;
+     box-shadow: 5px 5px 5px grey;
+     border-left: 5px;
+     padding: 2rem 10rem;
 }
 
 .about{
     align-items: center;
     margin-bottom: 2rem;
-    border-left: 5px;
-    padding: 1rem 10rem;
+    border-left: 2px;
+    border-right: 2px;
+    border-bottom: 2px;
+    border-top: 2px;
+    padding: 3rem 10rem;
+    
 }
 .eagles{
     
     align-items: center;
-    margin-bottom: 2rem;
+    box-shadow: 5px 5px 5px grey;
+    margin-bottom: 1rem;
     border-left: 5px;
-    padding: 1rem 10rem;
+    padding: 2rem 10rem;
+    
 }
 .woundedknee{
     align-items: center;
     margin-bottom: 2rem;
     border-left: 5px;
     padding: 1rem 10rem;
+    
 }
+
 .whatiexpected{
     align-items: center;
     margin-bottom: 2rem;
@@ -53,10 +52,15 @@ body{
 
 }
 
+.thankyou{
+    align-items: center;
+    margin-bottom: 2rem;
+    border-left: 5px;
+    padding: 1rem 10rem;
 
 
-        
-        
+}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -68,15 +72,12 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-
-
 }
+
 :root{
     --black: #373737;
     --pink:pink ;
-
 }
-
 
 header{
     display: flex;
@@ -86,35 +87,28 @@ header{
     align-items: center;
     background-color: var(--black);
     color:white;
-    
-   
-    
-
-
-  
-
 }
+
+
 
 header h1{
+  
     font-size: 4rem;
-    
-    
 }
 
-nav{
-    
-    font-size: 2rem;
-    
-   
-    
 
+
+nav{
+     font-size: 2rem;
 }
 
 nav ul{
     text-decoration: pink;
     text-align: center;
-
 }
+
+
+
 
 nav ul  li{
     text-decoration: pink;
