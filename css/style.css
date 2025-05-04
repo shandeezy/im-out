@@ -25,6 +25,36 @@ body{
         
         
 }
+
+.about{
+    align-items: center;
+    margin-bottom: 2rem;
+    border-left: 5px;
+    padding: 1rem 10rem;
+}
+.eagles{
+    
+    align-items: center;
+    margin-bottom: 2rem;
+    border-left: 5px;
+    padding: 1rem 10rem;
+}
+.woundedknee{
+    align-items: center;
+    margin-bottom: 2rem;
+    border-left: 5px;
+    padding: 1rem 10rem;
+}
+.whatiexpected{
+    align-items: center;
+    margin-bottom: 2rem;
+    border-left: 5px;
+    padding: 1rem 10rem;
+
+}
+
+
+
         
         
 footer{
@@ -89,7 +119,6 @@ nav ul{
 nav ul  li{
     text-decoration: pink;
     display: inline-block;
-   /* margin-right: ; */
     padding: 1rem;
     
 }
