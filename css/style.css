@@ -15,7 +15,9 @@ body{
      box-shadow: 5px 5px 5px grey;
      border-left: 5px;
      padding: 2rem 10rem;
+     
 }
+
 
 .about{
     align-items: center;
@@ -72,6 +74,7 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    border-style: none;
 }
 
 :root{
@@ -94,6 +97,7 @@ header{
 header h1{
   
     font-size: 4rem;
+    border-style: none;
 }
 
 
